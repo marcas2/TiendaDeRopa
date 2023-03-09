@@ -34,6 +34,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         panel2 = new java.awt.Panel();
         jLabel4 = new javax.swing.JLabel();
         panel3 = new java.awt.Panel();
+        panel6 = new java.awt.Panel();
         panel4 = new java.awt.Panel();
         panel5 = new java.awt.Panel();
         jLabel5 = new javax.swing.JLabel();
@@ -46,7 +47,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jMenuItem1.setText("jMenuItem1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new java.awt.GridLayout());
+        getContentPane().setLayout(new java.awt.GridLayout(1, 0));
 
         panel1.setBackground(new java.awt.Color(249, 240, 227));
         panel1.setLayout(new java.awt.BorderLayout());
@@ -75,10 +76,23 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         );
         panel3Layout.setVerticalGroup(
             panel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 67, Short.MAX_VALUE)
+            .addGap(0, 56, Short.MAX_VALUE)
         );
 
         panel2.add(panel3);
+
+        javax.swing.GroupLayout panel6Layout = new javax.swing.GroupLayout(panel6);
+        panel6.setLayout(panel6Layout);
+        panel6Layout.setHorizontalGroup(
+            panel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 456, Short.MAX_VALUE)
+        );
+        panel6Layout.setVerticalGroup(
+            panel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 56, Short.MAX_VALUE)
+        );
+
+        panel2.add(panel6);
 
         javax.swing.GroupLayout panel4Layout = new javax.swing.GroupLayout(panel4);
         panel4.setLayout(panel4Layout);
@@ -88,7 +102,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         );
         panel4Layout.setVerticalGroup(
             panel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 67, Short.MAX_VALUE)
+            .addGap(0, 56, Short.MAX_VALUE)
         );
 
         panel2.add(panel4);
@@ -101,7 +115,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         );
         panel5Layout.setVerticalGroup(
             panel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 67, Short.MAX_VALUE)
+            .addGap(0, 56, Short.MAX_VALUE)
         );
 
         panel2.add(panel5);
@@ -187,5 +201,6 @@ public class PaginaPrincipal extends javax.swing.JFrame {
     private java.awt.Panel panel3;
     private java.awt.Panel panel4;
     private java.awt.Panel panel5;
+    private java.awt.Panel panel6;
     // End of variables declaration//GEN-END:variables
 }
