@@ -6,14 +6,14 @@ package Vista;
 
 /**
  *
- * @author maria
+ * @author jcalp
  */
-public class SeccionHombres extends javax.swing.JFrame {
+public class SeccionMujeres extends javax.swing.JFrame {
 
     /**
-     * Creates new form SeccionHombres
+     * Creates new form SeccionMujeres
      */
-    public SeccionHombres() {
+    public SeccionMujeres() {
         initComponents();
     }
 
@@ -38,34 +38,31 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel4 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
+        jPanel2.setLayout(new java.awt.GridLayout());
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
@@ -73,7 +70,7 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel3.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel2.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/camiseta (2).png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/abrigo.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel3.add(jLabel2);
 
@@ -82,32 +79,27 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel7.setText("Camiseta conjunto primavera");
+        jLabel7.setText("Abrigo a cuadros");
         jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jLabel7.setMaximumSize(new java.awt.Dimension(20, 10));
         jPanel7.add(jLabel7);
 
         jLabel8.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel8.setText("Color: Verde claro");
+        jLabel8.setText("Color: gris/blanco");
         jPanel7.add(jLabel8);
 
         jLabel11.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel11.setText("Precio: 57.000$");
+        jLabel11.setText("Precio: 200.000$");
         jPanel7.add(jLabel11);
 
-        jButton1.setBackground(new java.awt.Color(77, 97, 96));
+        jButton1.setBackground(new java.awt.Color(181, 127, 100));
         jButton1.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Comprar");
         jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
         jButton1.setMaximumSize(new java.awt.Dimension(10, 20));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
         jPanel7.add(jButton1);
 
         jPanel3.add(jPanel7);
@@ -120,41 +112,36 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel6.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/short (1).png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/top.png"))); // NOI18N
         jPanel4.add(jLabel6);
 
         jPanel8.setBackground(new java.awt.Color(249, 240, 227));
         jPanel8.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel15.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel13.setText("Camisa sencilla");
+        jLabel13.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel13.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel8.add(jLabel13);
+
+        jLabel14.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel14.setText("Color: negro");
+        jPanel8.add(jLabel14);
+
+        jLabel15.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel15.setText("Short conjunto primavera");
-        jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jLabel15.setMaximumSize(new java.awt.Dimension(20, 10));
+        jLabel15.setText("Precio: 58.000$");
         jPanel8.add(jLabel15);
 
-        jLabel16.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel16.setText("Color: Negro");
-        jPanel8.add(jLabel16);
-
-        jLabel17.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel17.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel17.setText("Precio: 79.00$");
-        jPanel8.add(jLabel17);
-
-        jButton3.setBackground(new java.awt.Color(77, 97, 96));
-        jButton3.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Comprar");
-        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
-        jButton3.setMaximumSize(new java.awt.Dimension(10, 20));
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        jPanel8.add(jButton3);
+        jButton2.setBackground(new java.awt.Color(181, 127, 100));
+        jButton2.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setText("Comprar");
+        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton2.setMaximumSize(new java.awt.Dimension(10, 20));
+        jPanel8.add(jButton2);
 
         jPanel4.add(jPanel8);
 
@@ -165,41 +152,36 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel5.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel9.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/saco (1).png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/pantalon.png"))); // NOI18N
         jPanel5.add(jLabel9);
 
         jPanel9.setBackground(new java.awt.Color(249, 240, 227));
         jPanel9.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel18.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel16.setText("Pantalon holgado");
+        jLabel16.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel16.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel9.add(jLabel16);
+
+        jLabel17.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel17.setText("Color: beige");
+        jPanel9.add(jLabel17);
+
+        jLabel18.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel18.setText("Hoodie conjunto Primavera");
-        jLabel18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jLabel18.setMaximumSize(new java.awt.Dimension(20, 10));
+        jLabel18.setText("Precio: 96.000$");
         jPanel9.add(jLabel18);
 
-        jLabel19.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel19.setText("Color: Verde Oscuro");
-        jPanel9.add(jLabel19);
-
-        jLabel20.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel20.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel20.setText("Precio: 120.000$");
-        jPanel9.add(jLabel20);
-
-        jButton4.setBackground(new java.awt.Color(77, 97, 96));
-        jButton4.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Comprar");
-        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
-        jButton4.setMaximumSize(new java.awt.Dimension(10, 20));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        jPanel9.add(jButton4);
+        jButton3.setBackground(new java.awt.Color(181, 127, 100));
+        jButton3.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setText("Comprar");
+        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton3.setMaximumSize(new java.awt.Dimension(10, 20));
+        jPanel9.add(jButton3);
 
         jPanel5.add(jPanel9);
 
@@ -210,58 +192,42 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel6.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel10.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/zapato (1).png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/zapasmujer.png"))); // NOI18N
         jPanel6.add(jLabel10);
 
         jPanel10.setBackground(new java.awt.Color(249, 240, 227));
         jPanel10.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel21.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel19.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel19.setText("Zapatos deportivos");
+        jLabel19.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel19.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel10.add(jLabel19);
+
+        jLabel20.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel20.setText("Color: blanco/Rosa");
+        jPanel10.add(jLabel20);
+
+        jLabel21.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel21.setText("Zapatos conjunto Primavera");
-        jLabel21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
-        jLabel21.setMaximumSize(new java.awt.Dimension(20, 10));
+        jLabel21.setText("Precio: 193.000$");
         jPanel10.add(jLabel21);
 
-        jLabel22.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel22.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel22.setText("Color: verde y  gris");
-        jPanel10.add(jLabel22);
-
-        jLabel23.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
-        jLabel23.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel23.setText("Precio: 315.000$");
-        jPanel10.add(jLabel23);
-
-        jButton5.setBackground(new java.awt.Color(77, 97, 96));
-        jButton5.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Comprar");
-        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
-        jButton5.setMaximumSize(new java.awt.Dimension(10, 20));
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        jPanel10.add(jButton5);
+        jButton4.setBackground(new java.awt.Color(181, 127, 100));
+        jButton4.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setText("Comprar");
+        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton4.setMaximumSize(new java.awt.Dimension(10, 20));
+        jPanel10.add(jButton4);
 
         jPanel6.add(jPanel10);
 
         jPanel2.add(jPanel6);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.CENTER);
-
-        jMenuBar1.setForeground(new java.awt.Color(77, 97, 96));
-        jMenuBar1.setOpaque(true);
-
-        jMenu1.setText("File");
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Edit");
-        jMenuBar1.add(jMenu2);
-
-        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -276,22 +242,6 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -310,31 +260,33 @@ public class SeccionHombres extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionMujeres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionMujeres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionMujeres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionMujeres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new SeccionHombres().setVisible(true);
+                new SeccionMujeres().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
@@ -343,15 +295,10 @@ public class SeccionHombres extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
