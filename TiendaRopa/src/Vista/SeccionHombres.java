@@ -27,138 +27,238 @@ public class SeccionHombres extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
         jPanel5 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jButton4 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1, java.awt.BorderLayout.LINE_START);
-
-        jLabel3.setText("jLabel3");
-        jPanel1.add(jLabel3, java.awt.BorderLayout.PAGE_START);
-
-        jLabel4.setText("jLabel4");
-        jPanel1.add(jLabel4, java.awt.BorderLayout.PAGE_END);
-
-        jLabel5.setText("jLabel5");
-        jPanel1.add(jLabel5, java.awt.BorderLayout.LINE_END);
-
         jPanel2.setLayout(new java.awt.GridLayout(1, 0));
 
-        jPanel3.setBackground(new java.awt.Color(249, 240, 227));
-        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel3.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel3.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/camiseta (1).png"))); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(249, 240, 227));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/camiseta (2).png"))); // NOI18N
+        jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel3.add(jLabel2);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jLabel2)
-                .addContainerGap(27, Short.MAX_VALUE))
-        );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addComponent(jLabel2)
-                .addContainerGap(187, Short.MAX_VALUE))
-        );
+        jPanel7.setBackground(new java.awt.Color(249, 240, 227));
+        jPanel7.setLayout(new java.awt.GridLayout(0, 1));
+
+        jLabel7.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel7.setText("Camiseta conjunto primavera");
+        jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel7.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel7.add(jLabel7);
+
+        jLabel8.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel8.setText("Color: Verde claro");
+        jPanel7.add(jLabel8);
+
+        jLabel11.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel11.setText("Precio: 57.000$");
+        jPanel7.add(jLabel11);
+
+        jButton1.setBackground(new java.awt.Color(77, 97, 96));
+        jButton1.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Comprar");
+        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton1.setMaximumSize(new java.awt.Dimension(10, 20));
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton1);
+
+        jPanel3.add(jPanel7);
 
         jPanel2.add(jPanel3);
 
-        jPanel4.setBackground(new java.awt.Color(249, 240, 227));
-        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel4.setForeground(new java.awt.Color(255, 255, 255));
+        jPanel4.setLayout(new java.awt.GridLayout(0, 1));
 
+        jLabel6.setBackground(new java.awt.Color(249, 240, 227));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/short (1).png"))); // NOI18N
+        jPanel4.add(jLabel6);
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jLabel6)
-                .addContainerGap(32, Short.MAX_VALUE))
-        );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addComponent(jLabel6)
-                .addContainerGap(189, Short.MAX_VALUE))
-        );
+        jPanel8.setBackground(new java.awt.Color(249, 240, 227));
+        jPanel8.setLayout(new java.awt.GridLayout(0, 1));
+
+        jLabel15.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel15.setText("Short conjunto primavera");
+        jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel15.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel8.add(jLabel15);
+
+        jLabel16.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel16.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel16.setText("Color: Negro");
+        jPanel8.add(jLabel16);
+
+        jLabel17.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel17.setText("Precio: 79.00$");
+        jPanel8.add(jLabel17);
+
+        jButton3.setBackground(new java.awt.Color(77, 97, 96));
+        jButton3.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setText("Comprar");
+        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton3.setMaximumSize(new java.awt.Dimension(10, 20));
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton3);
+
+        jPanel4.add(jPanel8);
 
         jPanel2.add(jPanel4);
 
-        jPanel5.setBackground(new java.awt.Color(249, 240, 227));
-        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel5.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/saco (1).png"))); // NOI18N
+        jLabel9.setBackground(new java.awt.Color(249, 240, 227));
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/saco (1).png"))); // NOI18N
+        jPanel5.add(jLabel9);
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jLabel7)
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addComponent(jLabel7)
-                .addContainerGap(190, Short.MAX_VALUE))
-        );
+        jPanel9.setBackground(new java.awt.Color(249, 240, 227));
+        jPanel9.setLayout(new java.awt.GridLayout(0, 1));
+
+        jLabel18.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel18.setText("Hoodie conjunto Primavera");
+        jLabel18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel18.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel9.add(jLabel18);
+
+        jLabel19.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel19.setText("Color: Verde Oscuro");
+        jPanel9.add(jLabel19);
+
+        jLabel20.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel20.setText("Precio: 120.000$");
+        jPanel9.add(jLabel20);
+
+        jButton4.setBackground(new java.awt.Color(77, 97, 96));
+        jButton4.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setText("Comprar");
+        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton4.setMaximumSize(new java.awt.Dimension(10, 20));
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(jButton4);
+
+        jPanel5.add(jPanel9);
 
         jPanel2.add(jPanel5);
 
-        jPanel6.setBackground(new java.awt.Color(249, 240, 227));
-        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
+        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
+        jPanel6.setLayout(new java.awt.GridLayout(0, 1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/zapato (1).png"))); // NOI18N
+        jLabel10.setBackground(new java.awt.Color(249, 240, 227));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/zapato (1).png"))); // NOI18N
+        jPanel6.add(jLabel10);
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addComponent(jLabel8)
-                .addContainerGap(18, Short.MAX_VALUE))
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(53, 53, 53)
-                .addComponent(jLabel8)
-                .addContainerGap(190, Short.MAX_VALUE))
-        );
+        jPanel10.setBackground(new java.awt.Color(249, 240, 227));
+        jPanel10.setLayout(new java.awt.GridLayout(0, 1));
+
+        jLabel21.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel21.setText("Zapatos conjunto Primavera");
+        jLabel21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
+        jLabel21.setMaximumSize(new java.awt.Dimension(20, 10));
+        jPanel10.add(jLabel21);
+
+        jLabel22.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel22.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel22.setText("Color: verde y  gris");
+        jPanel10.add(jLabel22);
+
+        jLabel23.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(77, 97, 96));
+        jLabel23.setText("Precio: 315.000$");
+        jPanel10.add(jLabel23);
+
+        jButton5.setBackground(new java.awt.Color(77, 97, 96));
+        jButton5.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
+        jButton5.setText("Comprar");
+        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 2));
+        jButton5.setMaximumSize(new java.awt.Dimension(10, 20));
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel10.add(jButton5);
+
+        jPanel6.add(jPanel10);
 
         jPanel2.add(jPanel6);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.CENTER);
+
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -173,6 +273,22 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -210,19 +326,38 @@ public class SeccionHombres extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
 }
