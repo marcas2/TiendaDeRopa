@@ -6,14 +6,14 @@ package Vista;
 
 /**
  *
- * @author maria
+ * @author jcalp
  */
-public class SeccionHombres extends javax.swing.JFrame {
+public class SeccionBolsos extends javax.swing.JFrame {
 
     /**
-     * Creates new form SeccionHombres
+     * Creates new form SeccionBolsos
      */
-    public SeccionHombres() {
+    public SeccionBolsos() {
         initComponents();
     }
 
@@ -56,16 +56,13 @@ public class SeccionHombres extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
-        jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenu2 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new java.awt.BorderLayout());
 
-        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
+        jPanel2.setLayout(new java.awt.GridLayout());
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
@@ -73,7 +70,7 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel3.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel2.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/camiseta (2).png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/bolsoNegro.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204)));
         jPanel3.add(jLabel2);
 
@@ -82,22 +79,19 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel7.setText("Camiseta conjunto primavera");
         jLabel7.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jLabel7.setMaximumSize(new java.awt.Dimension(20, 10));
         jPanel7.add(jLabel7);
 
         jLabel8.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel8.setText("Color: Verde claro");
         jPanel7.add(jLabel8);
 
         jLabel11.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel11.setText("Precio: 57.000$");
         jPanel7.add(jLabel11);
 
-        jButton1.setBackground(new java.awt.Color(77, 97, 96));
+        jButton1.setBackground(new java.awt.Color(41, 37, 34));
         jButton1.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Comprar");
@@ -120,7 +114,7 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel6.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/short (1).png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/bolsoVerde.png"))); // NOI18N
         jPanel4.add(jLabel6);
 
         jPanel8.setBackground(new java.awt.Color(249, 240, 227));
@@ -128,22 +122,19 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel15.setText("Short conjunto primavera");
         jLabel15.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jLabel15.setMaximumSize(new java.awt.Dimension(20, 10));
         jPanel8.add(jLabel15);
 
         jLabel16.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel16.setText("Color: Negro");
         jPanel8.add(jLabel16);
 
         jLabel17.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel17.setText("Precio: 79.00$");
         jPanel8.add(jLabel17);
 
-        jButton3.setBackground(new java.awt.Color(77, 97, 96));
+        jButton3.setBackground(new java.awt.Color(41, 37, 34));
         jButton3.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Comprar");
@@ -165,7 +156,7 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel5.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel9.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/saco (1).png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/bolsocafe.png"))); // NOI18N
         jPanel5.add(jLabel9);
 
         jPanel9.setBackground(new java.awt.Color(249, 240, 227));
@@ -173,22 +164,19 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         jLabel18.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
         jLabel18.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel18.setText("Hoodie conjunto Primavera");
         jLabel18.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jLabel18.setMaximumSize(new java.awt.Dimension(20, 10));
         jPanel9.add(jLabel18);
 
         jLabel19.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel19.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel19.setText("Color: Verde Oscuro");
         jPanel9.add(jLabel19);
 
         jLabel20.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel20.setText("Precio: 120.000$");
         jPanel9.add(jLabel20);
 
-        jButton4.setBackground(new java.awt.Color(77, 97, 96));
+        jButton4.setBackground(new java.awt.Color(41, 37, 34));
         jButton4.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("Comprar");
@@ -210,7 +198,7 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel6.setLayout(new java.awt.GridLayout(0, 1));
 
         jLabel10.setBackground(new java.awt.Color(249, 240, 227));
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/zapato (1).png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/bolsohombre.png"))); // NOI18N
         jPanel6.add(jLabel10);
 
         jPanel10.setBackground(new java.awt.Color(249, 240, 227));
@@ -218,22 +206,19 @@ public class SeccionHombres extends javax.swing.JFrame {
 
         jLabel21.setFont(new java.awt.Font("Poppins", 0, 13)); // NOI18N
         jLabel21.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel21.setText("Zapatos conjunto Primavera");
         jLabel21.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
         jLabel21.setMaximumSize(new java.awt.Dimension(20, 10));
         jPanel10.add(jLabel21);
 
         jLabel22.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel22.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel22.setText("Color: verde y  gris");
         jPanel10.add(jLabel22);
 
         jLabel23.setFont(new java.awt.Font("Poppins", 0, 12)); // NOI18N
         jLabel23.setForeground(new java.awt.Color(77, 97, 96));
-        jLabel23.setText("Precio: 315.000$");
         jPanel10.add(jLabel23);
 
-        jButton5.setBackground(new java.awt.Color(77, 97, 96));
+        jButton5.setBackground(new java.awt.Color(41, 37, 34));
         jButton5.setFont(new java.awt.Font("Poppins", 0, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("Comprar");
@@ -251,17 +236,6 @@ public class SeccionHombres extends javax.swing.JFrame {
         jPanel2.add(jPanel6);
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.CENTER);
-
-        jMenuBar1.setForeground(new java.awt.Color(77, 97, 96));
-        jMenuBar1.setOpaque(true);
-
-        jMenu1.setText("File");
-        jMenuBar1.add(jMenu1);
-
-        jMenu2.setText("Edit");
-        jMenuBar1.add(jMenu2);
-
-        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -310,20 +284,20 @@ public class SeccionHombres extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionBolsos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionBolsos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionBolsos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(SeccionHombres.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(SeccionBolsos.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new SeccionHombres().setVisible(true);
+                new SeccionBolsos().setVisible(true);
             }
         });
     }
@@ -349,9 +323,6 @@ public class SeccionHombres extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel2;

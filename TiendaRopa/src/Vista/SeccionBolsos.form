@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
-  <NonVisualComponents>
-    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
-      <Properties>
-        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="60" green="61" red="4d" type="rgb"/>
-        </Property>
-        <Property name="opaque" type="boolean" value="true"/>
-      </Properties>
-      <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="File"/>
-          </Properties>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Edit"/>
-          </Properties>
-        </Menu>
-      </SubComponents>
-    </Menu>
-  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
   <SyntheticProperties>
-    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
     <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
   </SyntheticProperties>
@@ -105,7 +82,7 @@
                       <Color blue="e3" green="f0" red="f9" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Vista/camiseta (2).png"/>
+                      <Image iconType="3" name="/Vista/bolsoNegro.png"/>
                     </Property>
                     <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                       <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
@@ -136,7 +113,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Camiseta conjunto primavera"/>
                         <Property name="horizontalTextPosition" type="int" value="4"/>
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[20, 10]"/>
@@ -151,7 +127,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Color: Verde claro"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel11">
@@ -162,13 +137,12 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Precio: 57.000$"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton1">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="60" green="61" red="4d" type="rgb"/>
+                          <Color blue="22" green="25" red="29" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Poppins" size="18" style="0"/>
@@ -224,7 +198,7 @@
                       <Color blue="e3" green="f0" red="f9" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Vista/short (1).png"/>
+                      <Image iconType="3" name="/Vista/bolsoVerde.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -248,7 +222,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Short conjunto primavera"/>
                         <Property name="horizontalTextPosition" type="int" value="4"/>
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[20, 10]"/>
@@ -263,7 +236,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Color: Negro"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel17">
@@ -274,13 +246,12 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Precio: 79.00$"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton3">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="60" green="61" red="4d" type="rgb"/>
+                          <Color blue="22" green="25" red="29" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Poppins" size="18" style="0"/>
@@ -333,7 +304,7 @@
                       <Color blue="e3" green="f0" red="f9" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Vista/saco (1).png"/>
+                      <Image iconType="3" name="/Vista/bolsocafe.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -357,7 +328,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Hoodie conjunto Primavera"/>
                         <Property name="horizontalTextPosition" type="int" value="4"/>
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[20, 10]"/>
@@ -372,7 +342,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Color: Verde Oscuro"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel20">
@@ -383,13 +352,12 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Precio: 120.000$"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton4">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="60" green="61" red="4d" type="rgb"/>
+                          <Color blue="22" green="25" red="29" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Poppins" size="18" style="0"/>
@@ -442,7 +410,7 @@
                       <Color blue="e3" green="f0" red="f9" type="rgb"/>
                     </Property>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/Vista/zapato (1).png"/>
+                      <Image iconType="3" name="/Vista/bolsohombre.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -466,7 +434,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Zapatos conjunto Primavera"/>
                         <Property name="horizontalTextPosition" type="int" value="4"/>
                         <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
                           <Dimension value="[20, 10]"/>
@@ -481,7 +448,6 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Color: verde y  gris"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel23">
@@ -492,13 +458,12 @@
                         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="60" green="61" red="4d" type="rgb"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Precio: 315.000$"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton5">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                          <Color blue="60" green="61" red="4d" type="rgb"/>
+                          <Color blue="22" green="25" red="29" type="rgb"/>
                         </Property>
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Poppins" size="18" style="0"/>
