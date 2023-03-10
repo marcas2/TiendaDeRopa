@@ -69,7 +69,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
 
         jLabel6.setBackground(new java.awt.Color(41, 37, 34));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/ColeccionOtoño2.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/ColeccionOtoño2.png"))); // NOI18N
         panel3.add(jLabel6);
 
         panel2.add(panel3);
@@ -141,7 +141,12 @@ public class PaginaPrincipal extends javax.swing.JFrame {
 
         jMenu1.setText("Mujer");
 
-        jMenuItem2.setText("jMenuItem2");
+        jMenuItem2.setText("Ropa");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem2);
 
         jMenuBar1.add(jMenu1);
@@ -164,6 +169,10 @@ public class PaginaPrincipal extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     /**
      * @param args the command line arguments
