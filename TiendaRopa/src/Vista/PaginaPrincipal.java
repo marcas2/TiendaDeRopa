@@ -64,7 +64,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Logo.png"))); // NOI18N
         panel2.add(jLabel4);
 
-        panel3.setBackground(new java.awt.Color(163, 144, 129));
+        panel3.setBackground(new java.awt.Color(41, 37, 34));
         panel3.setLayout(new java.awt.GridLayout(1, 0));
 
         jLabel6.setBackground(new java.awt.Color(41, 37, 34));
@@ -116,7 +116,7 @@ public class PaginaPrincipal extends javax.swing.JFrame {
         panel5.add(jButton4);
 
         jButton5.setBackground(new java.awt.Color(163, 144, 129));
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Vista/Novedades.png"))); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Novedades.png"))); // NOI18N
         panel5.add(jButton5);
 
         panel2.add(panel5);

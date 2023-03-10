@@ -8,12 +8,12 @@ package Vista;
  *
  * @author maria
  */
-public class Novedades extends javax.swing.JFrame {
+public class Tiendas extends javax.swing.JFrame {
 
     /**
-     * Creates new form Novedades
+     * Creates new form Tiendas
      */
-    public Novedades() {
+    public Tiendas() {
         initComponents();
     }
 
@@ -26,16 +26,12 @@ public class Novedades extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel4 = new javax.swing.JLabel();
         panel1 = new java.awt.Panel();
         jLabel5 = new javax.swing.JLabel();
         panel2 = new java.awt.Panel();
-        jLabel2 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Logo.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.GridLayout());
@@ -47,19 +43,19 @@ public class Novedades extends javax.swing.JFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Logo.png"))); // NOI18N
         panel1.add(jLabel5);
 
-        panel2.setBackground(new java.awt.Color(41, 37, 34));
+        panel2.setBackground(new java.awt.Color(163, 144, 129));
         panel2.setLayout(new java.awt.GridLayout());
 
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Novedades.png"))); // NOI18N
-        panel2.add(jLabel2);
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Archivos/Tienda4.png"))); // NOI18N
+        panel2.add(jLabel1);
 
         panel1.add(panel2);
 
-        jLabel1.setFont(new java.awt.Font("Poppins", 0, 36)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Sin novedades");
-        panel1.add(jLabel1);
+        jLabel2.setFont(new java.awt.Font("Poppins", 0, 36)); // NOI18N
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("Sin tiendas");
+        panel1.add(jLabel2);
 
         jButton1.setBackground(new java.awt.Color(163, 144, 129));
         jButton1.setFont(new java.awt.Font("Poppins", 0, 36)); // NOI18N
@@ -97,20 +93,20 @@ public class Novedades extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Novedades.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tiendas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Novedades.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tiendas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Novedades.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tiendas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Novedades.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Tiendas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Novedades().setVisible(true);
+                new Tiendas().setVisible(true);
             }
         });
     }
@@ -119,7 +115,6 @@ public class Novedades extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private java.awt.Panel panel1;
     private java.awt.Panel panel2;
